@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Студия</title>
 </head>
 <body>
@@ -14,48 +17,100 @@
             <h2><a href="WebStudio"><span>Web</span>Studio</a></h2>
             <!-- Меню навигации -->
             <nav>
-               <a href="">Студия</a>
-               <a href="">Портфолио</a>
-               <a href="">Контакты</a>
+                <ul>               
+                    <li>
+                        <a href="">Студия</a>
+                    </li>
+                    <li>
+                        <a href="">Портфолио</a>
+                    </li>
+                    <li>
+                        <a href="">Контакты</a>
+                    </li>
+                </ul>
             </nav>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                <p>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </p>
+                <p>
+                    <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                </p>
         </div>
     </header>
     <!-- Шапка сайта -->
     <main>
-    <!-- Заказ услуги -->
-    <div>
-        <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br>ДЛЯ ВАШОГО БИЗНЕСА</h1>
-        <button type="button">заказать услугу</button>
-    </div>
-    <!-- Особености -->
-    <div>
+        <!-- Заказ услуги -->
         <div>
-            <p><b>ВНИМАНИЕ К ДЕТАЛЯМ</b></p>
-            <p>Идейные соображения, а также <br>начало повседневной работы по <br>формированию позиции.</p>
+            <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br>ДЛЯ ВАШОГО БИЗНЕСА</h1>
+            <button type="button">заказать услугу</button>
         </div>
-        <div>
-            <p><b>ПУНКТУАЛЬНОСТЬ</b></p>
-            <p>Задача организации, в особенности <br>же рамки и место обучения кадров <br>влечет за собой.</p>
-        </div>
-        <div>
-            <p><b>ПЛАНИРОВАНИЕ</b></p>
-            <p>Равным образом консультация с <br>широким активом в значительной <br>степени обуславливает.</p>
-        </div>
-        <div>
-            <p><b>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</b></p>
-            <p>Значимость этих проблем настолько <br>очевидна, что реализация плановых <br>заданий.</p>
-        </div>
-    </div>
-    <!-- Инфо о работе в фото -->
-    <div>
-    
-    </div>
+        <!-- Особености -->
+        <section>
+            <ul type="none">
+                <li>
+                    <p><b>ВНИМАНИЕ К ДЕТАЛЯМ</b></p>
+                    <p>Идейные соображения, а также <br>начало повседневной работы по <br>формированию позиции.</p>
+                </li>
+                <li>
+                    <p><b>ПУНКТУАЛЬНОСТЬ</b></p>
+                    <p>Задача организации, в особенности <br>же рамки и место обучения кадров <br>влечет за собой.</p>
+                </li>       
+                <li>
+                    <p><b>ПЛАНИРОВАНИЕ</b></p>
+                    <p>Равным образом консультация с <br>широким активом в значительной <br>степени обуславливает.</p>
+                </li> 
+                <li>
+                    <p><b>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</b></p>
+                    <p>Значимость этих проблем настолько <br>очевидна, что реализация плановых <br>заданий.</p>
+                </li>
+            </ul>
+        </section>
+        <!-- Инфо о работе в фото -->
+        <section>
+            <h2>Чем мы занимемся</h2>
+            <ul type="none">
+                <li>
+                    <img src="./images/doingone.jpg" alt="doing-photo" width="370">
+                </li>
+                <li>
+                    <img src="./images/doingtwo.jpg" alt="doing-photo" width="370">
+                </li>
+                <li>
+                    <img src="./images/doingthree.jpg" alt="doing-photo" width="370">
+                </li>
+            </ul>           
+        </section>
+        <!-- Команда -->
+        <section>
+            <h2>Наша команда</h2>
+            <ul type="none">
+                <li><img src="./images/demianenko.jpg" alt="team-member-photo" width="270">
+                    <p>Игорь Демьяненко</p>
+                    <p>Product Designer</p>
+                </li>
+                <li><img src="./images/repina.jpg" alt="team-member-photo" width="270">
+                    <p>Ольга Репина</p>
+                    <p>Frontend Developer</p>
+                </li>
+                <li><img src="./images/tarasov.jpg" alt="team-member-photo" width="270">
+                    <p>Николай Тарасов</p>
+                    <p>Marketing</p>
+                </li>
+                <li><img src="./images/ermakov.jpg" alt="team-member-photo" width="270">
+                    <p>Михаил Ермаков</p>
+                    <p>UI Designer</p>
+                </li>  
+            </ul>
+        </section>
     </main>
-
+    <!-- Подвал сайта -->
     <footer>
-
+        <h2><a href="WebStudio"><span>Web</span>Studio</a></h2>
+        <address>
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <p><a href="mailto:info@example.com">info@example.com</a></p>
+            <p><a href="tel:+38 099 111 11 11">+38 099 111 11 11</a></p>
+        </address>
     </footer>
 </body>
 </html>
